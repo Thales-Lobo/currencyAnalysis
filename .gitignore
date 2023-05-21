@@ -1,0 +1,25 @@
+# # Arquivos de configuração específicos do editor
+# .vscode/
+# .idea/
+
+# # Arquivos gerados pela compilação
+# dist/
+# build/
+
+# # Dependências ou pacotes
+# node_modules/
+# packages/
+
+# # Arquivos de log
+# logs/
+# *.log
+
+# # Arquivos de dados sensíveis
+# config.json
+# secrets.txt
+
+# # Arquivos temporários
+# *.tmp
+
+# # Arquivos de backup
+# *.bak

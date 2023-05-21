@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Conversor de Moedas</h1>
+    <div class="converter">
+      <div class="currency-select">
+        <label for="fromCurrency">De:</label>
+        <select id="fromCurrency"></select>
+      </div>
+      <div class="currency-select">
+        <label for="toCurrency">Para:</label>
+        <select id="toCurrency"></select>
+      </div>
+      <button id="convert">Converter</button>
+      <p id="result"></p>
+    </div>
+    <div class="graph">
+      <div class="currency-select">
+        <label for="chartCurrency">Moeda:</label>
+        <select id="chartCurrency"></select>
+      </div>
+      <canvas id="exchangeRateChart"></canvas>
+    </div>
+    <script src="script.ts"></script>
+  </body>
+</html>

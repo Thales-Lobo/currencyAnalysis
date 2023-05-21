@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .converter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  .converter label {
+    margin-right: 0.5rem;
+  }
+  
+  .converter input,
+  .converter select {
+    margin-right: 1rem;
+  }
+  
+  .graph {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .graph label {
+    margin-right: 0.5rem;
+  }
+  
+  .graph input,
+  .graph select {
+    margin-right: 1rem;
+  }
